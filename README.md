@@ -8,22 +8,20 @@
 
 <p align="center">
   I help computer-vision and ML teams move performance-critical workloads<br/>
-  from Python into modern C++ — without making deployment painful.
+  from Python into modern C++, without making deployment painful.
 </p>
 
 ---
 
 ### What I work on
 
-- **Python bindings for C++ libraries** — nanobind/pybind11 extensions, NumPy interoperability, GIL-safe long-running calls, wheels and packaging
-- **C++ ONNX Runtime inference pipelines** — provider selection, preprocessing/postprocessing, latency-aware real-time processing
-- **CPU/GPU performance optimization** — profiling, multithreading, queue design, CUDA acceleration where it pays for itself
-- **Real-time video, sensor, and point-cloud systems** — LiDAR tooling, frame pipelines, visualization
-- **Cross-platform CMake builds** — Linux, macOS, Windows; CI and reproducible releases
+- **Python bindings for C++ libraries** - nanobind/pybind11 extensions, NumPy interoperability, GIL-safe long-running calls, wheels and packaging
+- **C++ ONNX Runtime inference pipelines** - provider selection, preprocessing/postprocessing, latency-aware real-time processing
+- **CPU/GPU performance optimization** - profiling, multithreading, queue design, CUDA acceleration where it pays for itself
+- **Real-time video, sensor, and point-cloud systems** - LiDAR tooling, frame pipelines, visualization
+- **Cross-platform CMake builds** - Linux, macOS, Windows; CI and reproducible releases
 
 ### Selected experience
-
-> Professional experience — full code and benchmarks are with my employers, so I describe these at a high level.
 
 - Redesigned a 3D object-tracking pipeline to handle **2,000+ concurrent objects**
 - Improved tracking throughput **5×** via CUDA acceleration
@@ -33,7 +31,7 @@
 
 ### Now building
 
-> **`cpp-onnx-python`** — a packaged C++ inference library with Python bindings: C++20 core, ONNX Runtime, nanobind, NumPy in/out, GIL-safe calls, wheels for Linux/macOS, and reproducible CPU/CUDA benchmarks. Will be linked here when released.
+> **`cpp-onnx-python`** : a packaged C++ inference library with Python bindings: C++20 core, ONNX Runtime, nanobind, NumPy in/out, GIL-safe calls, wheels for Linux/macOS, and reproducible CPU/CUDA benchmarks. Will be linked here when released.
 
 ### Selected open source
 
@@ -53,7 +51,7 @@
 | **Python binding sprint** | Production-ready pybind11/nanobind module: NumPy interop, GIL-safe calls, exception translation, tests, wheels | You have a C++ library your Python team can't use efficiently |
 | **ONNX Runtime integration** | C++ inference wrapper, provider setup, pre/post-processing, benchmark report | A Python prototype needs native deployment or real-time performance |
 
-Most engagements start with a short paid audit — you get a concrete measurement of what's slow and what it would cost to fix, whether or not we continue.
+Most engagements start with a short paid audit, you get a concrete measurement of what's slow and what it would cost to fix, whether or not we continue.
 
 📫 **jd.jatindalal@gmail.com** · [LinkedIn](https://linkedin.com/in/jatindalal)
 
