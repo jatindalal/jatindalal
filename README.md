@@ -15,7 +15,7 @@
 
 ### What I work on
 
-- **Python bindings for C++ libraries** — pybind11/nanobind extensions, NumPy interoperability, GIL-safe long-running calls, wheels and packaging
+- **Python bindings for C++ libraries** — nanobind/pybind11 extensions, NumPy interoperability, GIL-safe long-running calls, wheels and packaging
 - **C++ ONNX Runtime inference pipelines** — provider selection, preprocessing/postprocessing, latency-aware real-time processing
 - **CPU/GPU performance optimization** — profiling, multithreading, queue design, CUDA acceleration where it pays for itself
 - **Real-time video, sensor, and point-cloud systems** — LiDAR tooling, frame pipelines, visualization
@@ -31,6 +31,10 @@
 - Worked hands-on with **LibTorch, CUDA, ONNX Runtime, LiDAR SDKs, FFmpeg, OpenGL**
 - Ported real-time C++ systems **between Linux and Windows**
 
+### Now building
+
+> **`cpp-onnx-python`** — a packaged C++ inference library with Python bindings: C++20 core, ONNX Runtime, nanobind, NumPy in/out, GIL-safe calls, wheels for Linux/macOS, and reproducible CPU/CUDA benchmarks. Will be linked here when released.
+
 ### Selected open source
 
 | Project | What it demonstrates |
@@ -41,13 +45,15 @@
 | [human-activity-detection](https://github.com/jatindalal/human-activity-detection) | End-to-end ML product: model inference, async API, webcam capture, frontend |
 | [SocketSphere](https://github.com/jatindalal/socket-sphere) | Asynchronous C++ networking with framed protocols |
 
-### Available for freelance & consulting
+### Working with me
 
-- Python bindings for existing C++ libraries
-- ONNX Runtime integration and optimization
-- C++ performance audits (profiling → hotspots → measured fix)
-- Real-time computer-vision pipelines
-- CMake, CI, and cross-platform build engineering
+| Engagement | What you get | Good fit when |
+|---|---|---|
+| **Performance audit** | Profiling setup, hotspot report, before/after measurements, one prioritized fix implemented | Latency or throughput is off but you don't know where the time goes |
+| **Python binding sprint** | Production-ready pybind11/nanobind module: NumPy interop, GIL-safe calls, exception translation, tests, wheels | You have a C++ library your Python team can't use efficiently |
+| **ONNX Runtime integration** | C++ inference wrapper, provider setup, pre/post-processing, benchmark report | A Python prototype needs native deployment or real-time performance |
+
+Most engagements start with a short paid audit — you get a concrete measurement of what's slow and what it would cost to fix, whether or not we continue.
 
 📫 **jd.jatindalal@gmail.com** · [LinkedIn](https://linkedin.com/in/jatindalal)
 
@@ -60,6 +66,7 @@
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
   <img src="https://img.shields.io/badge/pybind11-3670A0?style=for-the-badge" alt="pybind11" />
+  <img src="https://img.shields.io/badge/nanobind-3670A0?style=for-the-badge" alt="nanobind" />
   <img src="https://img.shields.io/badge/ONNX_Runtime-005CED?style=for-the-badge" alt="ONNX Runtime" />
   <img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=black" alt="CUDA" />
   <img src="https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white" alt="CMake" />
