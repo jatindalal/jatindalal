@@ -15,11 +15,11 @@
 
 ### What I work on
 
-- **Python bindings for C++ libraries** : nanobind/pybind11 extensions, NumPy interoperability, GIL-safe long-running calls, wheels and packaging
-- **C++ ONNX Runtime inference pipelines** : provider selection, preprocessing/postprocessing, latency-aware real-time processing
-- **CPU/GPU performance optimization** : profiling, multithreading, queue design, CUDA acceleration where it pays for itself
-- **Real-time video, sensor, and point-cloud systems** : LiDAR tooling, frame pipelines, visualization
-- **Cross-platform CMake builds** : Linux, macOS, Windows; CI and reproducible releases
+- **Python bindings for C++ libraries**: nanobind/pybind11 extensions, NumPy interoperability, GIL-safe long-running calls, wheels and packaging
+- **C++ ONNX Runtime inference pipelines**: provider selection, preprocessing/postprocessing, latency-aware real-time processing
+- **CPU/GPU performance optimization**: profiling, multithreading, queue design, CUDA acceleration where it pays for itself
+- **Real-time video, sensor, and point-cloud systems**: LiDAR tooling, frame pipelines, visualization
+- **Cross-platform CMake builds**: Linux, macOS, Windows; CI and reproducible releases
 
 ### Selected experience
 
