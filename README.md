@@ -31,12 +31,13 @@
 
 ### Now building
 
-> **`cpp-onnx-python`** : a packaged C++ inference library with Python bindings: C++20 core, ONNX Runtime, nanobind, NumPy in/out, GIL-safe calls, wheels for Linux/macOS, and reproducible CPU/CUDA benchmarks. Will be linked here when released.
+> **[`cpp-onnx-python`](https://github.com/jatindalal/cpp-onnx-python)** : a packaged C++ inference library with Python bindings: C++20 core, ONNX Runtime, nanobind, NumPy in/out, GIL-released inference, wheels for Linux/macOS, and reproducible CPU/CUDA benchmarks. In active development — early builds run real models with CPU and GPU (CUDA on Linux/Windows, CoreML on macOS) provider selection.
 
 ### Selected open source
 
 | Project | What it demonstrates |
 |---|---|
+| [cpp-onnx-python](https://github.com/jatindalal/cpp-onnx-python) | Packaged C++20 inference library with nanobind Python bindings: ONNX Runtime session management, model I/O introspection, NumPy in/out with dtype/shape/contiguity validation, GIL-released inference, CPU/CUDA/CoreML provider selection |
 | [OxyRT](https://github.com/jatindalal/OxyRT) | C++20 real-time object detection on ONNX Runtime: session management, preprocessing, output decoding, provider selection, live latency telemetry |
 | [anonrt](https://github.com/jatindalal/anonrt) | Modern C++ video pipeline: real-time face anonymization, bounded queues, background processing, MP4 export |
 | [visin](https://github.com/jatindalal/visin) | Point-cloud visualization: file-format I/O, GPU-backed rendering (ModernGL), camera math, tested NumPy data handling |
