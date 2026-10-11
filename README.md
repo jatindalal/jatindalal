@@ -29,7 +29,7 @@
 - Worked hands-on with **LibTorch, CUDA, ONNX Runtime, LiDAR SDKs, FFmpeg, OpenGL**
 - Ported real-time C++ systems **between Linux and Windows**
 
-### Flagship
+### Featured
 
 > **[`cpp-onnx-python`](https://github.com/jatindalal/cpp-onnx-python)** — `v0.1.0` released: a packaged C++20 + ONNX Runtime inference library exposed to Python through nanobind. Bundles ONNX Runtime, takes NumPy in and returns owned NumPy arrays, validates dtype/rank/shape/device/contiguity before calling ORT, maps native failures to `ValueError` / `FileNotFoundError` / `NotImplementedError` / `RuntimeError`, and releases the GIL around session build and inference. Stable-ABI `cp312-abi3` wheels for **macOS 14+ arm64**, **Linux x86_64** and **Linux aarch64** (`manylinux_2_28`) are [on the Releases page](https://github.com/jatindalal/cpp-onnx-python/releases/latest); a 27-case pytest suite plus a native CTest suite exercise the same C++ core.
 >
