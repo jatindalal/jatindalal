@@ -29,15 +29,17 @@
 - Worked hands-on with **LibTorch, CUDA, ONNX Runtime, LiDAR SDKs, FFmpeg, OpenGL**
 - Ported real-time C++ systems **between Linux and Windows**
 
-### Now building
+### Flagship
 
-> **[`cpp-onnx-python`](https://github.com/jatindalal/cpp-onnx-python)** : a packaged C++ inference library with Python bindings: C++20 core, ONNX Runtime, nanobind, NumPy in/out, GIL-released inference, wheels for Linux/macOS, and reproducible CPU/CUDA benchmarks. In active development — early builds run real models with CPU and GPU (CUDA on Linux/Windows, CoreML on macOS) provider selection.
+> **[`cpp-onnx-python`](https://github.com/jatindalal/cpp-onnx-python)** — `v0.1.0` released: a packaged C++20 + ONNX Runtime inference library exposed to Python through nanobind. Bundles ONNX Runtime, takes NumPy in and returns owned NumPy arrays, validates dtype/rank/shape/device/contiguity before calling ORT, maps native failures to `ValueError` / `FileNotFoundError` / `NotImplementedError` / `RuntimeError`, and releases the GIL around session build and inference. Stable-ABI `cp312-abi3` wheels for **macOS 14+ arm64**, **Linux x86_64** and **Linux aarch64** (`manylinux_2_28`) are [on the Releases page](https://github.com/jatindalal/cpp-onnx-python/releases/latest); 25 Python tests plus a native CTest suite exercise the same C++ core.
+>
+> Measured on Apple M3 Pro / ONNX Runtime 1.30.0: **1.21–1.24× faster per call than the official `onnxruntime` Python wheel** on the fixed-overhead fixture, and a real-model CoreML benchmark where speedup is model-dependent — **4.1×** for MobileNetV2 (ANE+GPU), **~0.5×** for the YuNet detector, NaN for a super-resolution transformer. No general GPU-speedup claim is made.
 
 ### Selected open source
 
 | Project | What it demonstrates |
 |---|---|
-| [cpp-onnx-python](https://github.com/jatindalal/cpp-onnx-python) | Packaged C++20 inference library with nanobind Python bindings: ONNX Runtime session management, model I/O introspection, NumPy in/out with dtype/shape/contiguity validation, GIL-released inference, CPU/CUDA/CoreML provider selection |
+| [cpp-onnx-python](https://github.com/jatindalal/cpp-onnx-python) | Packaged C++20 + ONNX Runtime inference library with nanobind bindings (`v0.1.0`): bundled ORT runtime, owned NumPy in/out, explicit dtype/shape/contiguity validation, Python exception taxonomy, GIL-released inference, stable-ABI wheels for macOS/Linux, and committed CPU + CoreML benchmarks on real models |
 | [OxyRT](https://github.com/jatindalal/OxyRT) | C++20 real-time object detection on ONNX Runtime: session management, preprocessing, output decoding, provider selection, live latency telemetry |
 | [anonrt](https://github.com/jatindalal/anonrt) | Modern C++ video pipeline: real-time face anonymization, bounded queues, background processing, MP4 export |
 | [visin](https://github.com/jatindalal/visin) | Point-cloud visualization: file-format I/O, GPU-backed rendering (ModernGL), camera math, tested NumPy data handling |
