@@ -1,6 +1,10 @@
 <p align="center">
   <a href="https://github.com/jatindalal">
-    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=2ea043&fontSize=54&height=90&width=602&text=Jatin%20Dalal" alt="Jatin Dalal" />
+   __     ______     ______   __     __   __        _____     ______     __         ______     __        
+  /\ \   /\  __ \   /\__  _\ /\ \   /\ "-.\ \      /\  __-.  /\  __ \   /\ \       /\  __ \   /\ \       
+ _\_\ \  \ \  __ \  \/_/\ \/ \ \ \  \ \ \-.  \     \ \ \/\ \ \ \  __ \  \ \ \____  \ \  __ \  \ \ \____  
+/\_____\  \ \_\ \_\    \ \_\  \ \_\  \ \_\\"\_\     \ \____-  \ \_\ \_\  \ \_____\  \ \_\ \_\  \ \_____\ 
+\/_____/   \/_/\/_/     \/_/   \/_/   \/_/ \/_/      \/____/   \/_/\/_/   \/_____/   \/_/\/_/   \/_____/
   </a>
 </p>
 
@@ -23,7 +27,7 @@
 
 ### Selected experience
 
-- Redesigned a 3D object-tracking pipeline to handle **2,000+ concurrent objects**
+- Redesigned a 3D multi object-tracking pipeline to handle **2,000+ concurrent objects**
 - Improved tracking throughput **5×** via CUDA acceleration
 - Built **Pybind11 and LibTorch bindings** for production C++ inference, sensor, and post-processing components
 - Worked hands-on with **LibTorch, CUDA, ONNX Runtime, LiDAR SDKs, FFmpeg, OpenGL**
