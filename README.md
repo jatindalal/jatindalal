@@ -1,5 +1,11 @@
-[![Jatin Dalal](https://ascii.rest/banner/Jatin%20Dalal.svg?color=3fb950&speed=fast&font=slim&fill=block)](https://github.com/jatindalal)
-
+<p align="center">
+<a href="https://github.com/jatindalal">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/banner/Jatin%20Dalal.dark.svg?color=3fb950&speed=fast&font=slim&fill=block">
+    <img alt="Jatin Dalal" src="https://ascii.rest/banner/Jatin%20Dalal.svg?color=3fb950&speed=fast&font=slim&fill=block">
+  </picture>
+</a>
+</p>
 <h3 align="center">C++ / Python Integration · ONNX Runtime · Inference Performance</h3>
 
 <p align="center">
