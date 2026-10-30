@@ -1,13 +1,4 @@
-<p align="center">
-  <a href="https://github.com/jatindalal">
-   __     ______     ______   __     __   __    <br>
-  /\ \   /\  __ \   /\__  _\ /\ \   /\ "-.\ \   <br>
- _\_\ \  \ \  __ \  \/_/\ \/ \ \ \  \ \ \-.  \  <br>
-/\_____\  \ \_\ \_\    \ \_\  \ \_\  \ \_\\"\_\ <br>
-\/_____/   \/_/\/_/     \/_/   \/_/   \/_/ \/_/ <br>
-
-  </a>
-</p>
+[![Jatin Dalal](https://ascii.rest/banner/Jatin%20Dalal.svg?color=3fb950&speed=fast&font=slim&fill=block)](https://github.com/jatindalal)
 
 <h3 align="center">C++ / Python Integration · ONNX Runtime · Inference Performance</h3>
 
